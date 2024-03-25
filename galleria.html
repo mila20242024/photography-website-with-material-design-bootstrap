@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container-fluid my-3">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">ROSARIO MIGNEMI</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item me-2 pe-3">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item me-2 pe-3">
+                <a class="nav-link" href="./galleria.html">Galleria</a>
+              </li>
+              <li class="nav-item me-2 pe-3">
+                <a class="nav-link" href="./About.html">About</a>
+              </li>
+              <li class="nav-item me-2 pe-3">
+                <a class="nav-link" href="./Blog.html">Blog</a>
+              </li>
+              <li class="nav-item me-2 pe-3">
+                <a class="nav-link" href="./Contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh-->
+      <div class="container my-5">
+        <!-- Section -->
+        <section>
+          <style>
+            .md-pills .nav-link.active {
+              color: #fff;
+              background-color: #616161;
+            }
+            button.close {
+              position: absolute;
+              right: 0;
+              z-index: 2;
+              padding-right: 1rem;
+              padding-top: 0.6rem;
+            }
+          </style>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="basicExampleModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div
+              class="modal-dialog modal-lg modal-dialog-centered"
+              role="document"
+            >
+              <div class="modal-content">
+                <div class="modal-body p-0">
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+
+                  <!-- Grid row -->
+                  <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-md-6 py-5 pl-5">
+                      <h5 class="font-weight-normal mb-3">Paper cup mockup</h5>
+
+                      <p class="text-muted">
+                        Key letters, explain which writing we he carpeting or
+                        fame, the itch expand medical amped through constructing
+                        time. And scarfs, gain, get showed accounts decades.
+                      </p>
+
+                      <ul class="list-unstyled font-small mt-5">
+                        <li>
+                          <p class="text-uppercase mb-2">
+                            <strong>Client</strong>
+                          </p>
+                          <p class="text-muted mb-4">Envato Inc.</p>
+                        </li>
+
+                        <li>
+                          <p class="text-uppercase mb-2">
+                            <strong>Date</strong>
+                          </p>
+                          <p class="text-muted mb-4">June 27, 2019</p>
+                        </li>
+
+                        <li>
+                          <p class="text-uppercase mb-2">
+                            <strong>Skills</strong>
+                          </p>
+                          <p class="text-muted mb-4">
+                            Design, HTML, CSS, Javascript
+                          </p>
+                        </li>
+
+                        <li>
+                          <p class="text-uppercase mb-2">
+                            <strong>Address</strong>
+                          </p>
+                          <a
+                            href="https://mdbootstrap.com/docs/jquery/design-blocks/"
+                            >MDBootstrap</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-6">
+                      <div class="view rounded-right">
+                        <img
+                          class="img-fluid"
+                          src="https://mdbootstrap.com/img/Photos/Vertical/5.jpg"
+                          alt="Sample image"
+                        />
+                      </div>
+                    </div>
+                    <!-- Grid column -->
+                  </div>
+                  <!-- Grid row -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h6
+            class="font-weight-bold text-center grey-text text-uppercase small mb-4"
+          >
+            portfolio
+          </h6>
+          <h1 class="font-weight-bold text-center dark-grey-text pb-2">
+            LA GALLERIA
+          </h1>
+          <hr class="w-header my-4" />
+          <p class="lead text-center text-muted pt-2 mb-5">
+            You can find several product design by our professional team in this
+            section.
+          </p>
+
+          <!--First row-->
+          <div class="row">
+            <!--First column-->
+            <div class="col-12"></div>
+            <!--First column-->
+          </div>
+          <!--First row-->
+
+          <!--Tab panels-->
+          <div class="tab-content mb-5">
+            <!--Panel 1-->
+            <div
+              class="tab-pane fade show in active"
+              id="panel31"
+              role="tabpanel"
+            >
+              <!-- Grid row -->
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-12 col-lg-4">
+                  <!-- Card -->
+                  <a
+                    class="card hoverable mb-4"
+                    data-toggle="modal"
+                    data-target="#basicExampleModal"
+                  >
+                    <!-- Card image -->
+                    <img
+                      class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Others/img3.jpg"
+                      alt="Card image cap"
+                    />
+
+                    <!-- Card content -->
+                    <div class="card-body">
+                      <h5 class="my-3 text-center">PORTRAIT</h5>
+                    </div>
+                  </a>
+                  <!-- Card -->
+
+                  <!-- Card -->
+                  <a
+                    class="card hoverable mb-4"
+                    data-toggle="modal"
+                    data-target="#basicExampleModal"
+                  >
+                    <!-- Card image -->
+                    <img
+                      class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Others/img9.jpg"
+                      alt="Card image cap"
+                    />
+
+                    <!-- Card content -->
+                    <div class="card-body">
+                      <h5 class="my-3 text-center">ARTISTIC NUDE</h5>
+                    </div>
+                  </a>
+                  <!-- Card -->
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-4">
+                  <!-- Card -->
+                  <a
+                    class="card hoverable mb-4"
+                    data-toggle="modal"
+                    data-target="#basicExampleModal"
+                  >
+                    <!-- Card image -->
+                    <img
+                      class="card-img-top"
+                      src=" https://mdbootstrap.com/img/Photos/Others/img4.jpg"
+                      alt="Card image cap"
+                    />
+
+                    <!-- Card content -->
+                    <div class="card-body">
+                      <h5 class="my-3 text-center">LANDSCAPE</h5>
+                    </div>
+                  </a>
+                  <!-- Card -->
+
+                  <!-- Card -->
+                  <a
+                    class="card hoverable mb-4"
+                    data-toggle="modal"
+                    data-target="#basicExampleModal"
+                  >
+                    <!-- Card image -->
+                    <img
+                      class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Others/img5.jpg"
+                      alt="Card image cap"
+                    />
+
+                    <!-- Card content -->
+                    <div class="card-body">
+                      <h5 class="my-3 text-center">REPORTAGE</h5>
+                    </div>
+                  </a>
+                  <!-- Card -->
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-4">
+                  <!-- Card -->
+                  <a
+                    class="card hoverable mb-4"
+                    data-toggle="modal"
+                    data-target="#basicExampleModal"
+                  >
+                    <!-- Card image -->
+                    <img
+                      class="card-img-top"
+                      src=" https://mdbootstrap.com/img/Photos/Others/img10.jpg"
+                      alt="Card image cap"
+                    />
+
+                    <!-- Card content -->
+                    <div class="card-body">
+                      <h5 class="my-3 text-center">EVENTS</h5>
+                    </div>
+                  </a>
+                  <!-- Card -->
+
+                  <!-- Card -->
+                  <a
+                    class="card hoverable mb-4"
+                    data-toggle="modal"
+                    data-target="#basicExampleModal"
+                  >
+                    <!-- Card image -->
+                    <img
+                      class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Others/img8.jpg"
+                      alt="Card image cap"
+                    />
+
+                    <!-- Card content -->
+                    <div class="card-body">
+                      <h5 class="my-3 text-center">ARTIFICIAL INTELLIGENCE</h5>
+                    </div>
+                  </a>
+                  <!-- Card -->
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+            </div>
+            <!--Panel 1-->
+
+            <!--Panel 2-->
+            <!--Panel 2-->
+
+            <!--Panel 3-->
+            <!--Panel 3-->
+          </div>
+          <!--Tab panels-->
+        </section>
+        <!-- Section -->
+      </div>
+    </div>
+
+    <footer class="text-center text-white" style="background-color: #f1f1f1">
+      <!-- Grid container -->
+      <div class="container pt-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+
+          <!-- Twitter -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-twitter"></i
+          ></a>
+
+          <!-- Google -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-google"></i
+          ></a>
+
+          <!-- Instagram -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-instagram"></i
+          ></a>
+
+          <!-- Linkedin -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    </footer>
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/"
+          >MDBootstrap.com</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
